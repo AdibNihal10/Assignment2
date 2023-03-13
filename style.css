@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans&family=Poppins&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+
+  text-align: center;
+
+  color: #131313;
+}
+.list-title {
+  font-weight: 500;
+  font-size: 18px;
+
+  text-align: center;
+
+  color: #424242;
+}
+.sec-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 102px;
+  text-align: center;
+  margin: 150px 250px;
+}
+.brand-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+}
+.brand-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 100%;
+  margin-top: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 52px;
+}
+.explore {
+  color: #ffffff;
+  background-color: orange;
+  border-radius: 5px;
+  height: 64px;
+  width: 180px;
+  padding: 20px 26px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgae {
+  margin: 50px 250px;
+}
+main {
+  margin-top: 83px;
+}
+.images-gr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin: 50px 150px;
+}
+.h-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.quick {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #727272;
+}
+.quick-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 32px;
+}
+.quickof {
+  font-weight: 700;
+  font-size: 45px;
+}
+.enjoy-features {
+  margin: 130px 250px;
+}
+.features {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+.borderor {
+  width: 5px;
+  height: 106px;
+  background-color: #ff900e;
+}
+.first-line {
+  display: flex;
+  gap: 21px;
+}
+.bheader {
+  font-weight: 700;
+  font-size: 45px;
+}
